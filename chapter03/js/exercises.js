@@ -11,13 +11,24 @@ Exer.defining = function () {  // do not remove or alter
 
 /******************************    DEFINING 1    ******************************/
 // Use a function expression to define a function named `three`.
+var three = function(){
 // That function should return the value 3.
+ return  3;
+};
 
 
 
 /******************************    DEFINING 2    ******************************/
 // Use a function expression to define a function named `myLog`.
+var myLog = function(message){
+ console.log("The Log Says: " + message);
+};
 // `myLog` should accept one parameter named `message`.
+var myLog = function(x){
+
+ console.log("The Log Says: " + x);
+};
+
 // `myLog` should output `message` to the console with the appropriate
 //     formatting.
 
@@ -27,8 +38,12 @@ Exer.defining = function () {  // do not remove or alter
 // Use a function expression to define a function named `square`.
 // `square` should accept one parameter named `number`.
 // The function should square the number and both log and return the result.
-
-
+var square =  function(number){
+  var result = number * number;
+  
+  console.log(result);
+  return result;
+  }
 
 //==========================//
   Exer.defining1 = three;   //
@@ -48,10 +63,18 @@ Exer.defining = function () {  // do not remove or alter
 // `parameters1` should return `spaceCubeDetector`
 
 Exer.parameters1 = function() {
-
-
-
- };  // end Exer.parameters1
+// Inside `Exer.parameters1` create a function named `spaceCubeDetector` that
+//     accepts a length, width, and a height.
+  var spaceCubeDetector = function(length, width, height){
+    if(length === width && width === height && height !== null){
+      return 'SPACE CUBE DETECTED!!';
+  }
+    else {
+      return 'THIS IS NO SPACE CUBE!';
+    }
+  }
+  return spaceCubeDetector;
+};  // end Exer.parameters1
 
 
 
@@ -67,8 +90,17 @@ Exer.parameters1 = function() {
 //================================================//
 Exer.parameters2 = function(spaceCubeDetector) {  //
 //================================================//
-
-
+// Given spaceCubeDetector:
+// Run it once with a length of 3, width of 5, and height of 3.14159265359
+//     and log its return value.
+ 
+  console.log(spaceCubeDetector(3, 5, 3.14159265359));
+// Run it once with a length of 7, width of 7, and height of 7 and log its
+//     return value.
+ console.log(spaceCubeDetector(7, 7, 7));
+  
+// Run it once with a length of 1,
+ console.log(spaceCubeDetector(1,2,3));
 
 };  // wrapper end
 
@@ -112,15 +144,15 @@ Exer.scopeExample = function() {
 //  Write your answers in this section
 
 Exer.scope1 = function() {
-  return /* return value for Scope 1 */ ;
+  return  5/* return value for Scope 1 */ ;
 };
 
 Exer.scope2 = function() {
-  return /* return value for Scope 2 */ ;
+  return  35/* return value for Scope 2 */ ;
 };
 
 Exer.scope3 = function() {
-  return /* return value for Scope 3 */ ;
+  return null/* return value for Scope 3 */ ;
 };
 
 Exer.scope4 = function() {
