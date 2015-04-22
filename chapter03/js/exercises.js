@@ -97,10 +97,10 @@ Exer.parameters2 = function(spaceCubeDetector) {  //
   console.log(spaceCubeDetector(3, 5, 3.14159265359));
 // Run it once with a length of 7, width of 7, and height of 7 and log its
 //     return value.
- console.log(spaceCubeDetector(7, 7, 7));
+  console.log(spaceCubeDetector(7, 7, 7));
   
 // Run it once with a length of 1,
- console.log(spaceCubeDetector(1,2,3));
+  console.log(spaceCubeDetector(1,2,3));
 
 };  // wrapper end
 
@@ -152,15 +152,15 @@ Exer.scope2 = function() {
 };
 
 Exer.scope3 = function() {
-  return null/* return value for Scope 3 */ ;
+  return 7/* return value for Scope 3 */ ;
 };
 
 Exer.scope4 = function() {
-  return /* return value for Scope 4 */ ;
+  return 7/* return value for Scope 4 */ ;
 };
 
 Exer.scope5 = function() {
-  return /* return value for Scope 5 */ ;
+  return 35/* return value for Scope 5 */ ;
 };
 
 
@@ -241,58 +241,58 @@ Exer.nestExample = function() {
 //  Write your answers in this section.
 
 Exer.nest1 = function() {
-  return /* answer for Nest 1 */ ;
+  return 2 ;
 };
 Exer.nest2 = function() {
-  return /* answer for Nest 2 */ ;
+  return 5 ;
 };
 Exer.nest3 = function() {
-  return /* answer for Nest 3 */ ;
+  return 7 ;
 };
 Exer.nest4 = function() {
-  return /* answer for Nest 4 */ ;
+  return 11 ;
 };
 Exer.nest5 = function() {
-  return /* answer for Nest 5 */ ;
+  return 7 ;
 };
 Exer.nest6 = function() {
-  return /* answer for Nest 6 */ ;
+  return 11 ;
 };
 Exer.nest7 = function() {
-  return /* answer for Nest 7 */ ;
+  return 7 ;
 };
 Exer.nest8 = function() {
-  return /* answer for Nest 8 */ ;
+  return 17 ;
 };
 Exer.nest9 = function() {
-  return /* answer for Nest 9 */ ;
+  return 17 ;
 };
 Exer.nest10 = function() {
-  return /* answer for Nest 10 */ ;
+  return 17 ;
 };
 Exer.nest11 = function() {
-  return /* answer for Nest 11 */ ;
+  return 13;
 };
 Exer.nest12 = function() {
-  return /* answer for Nest 12 */ ;
+  return 13 ;
 };
 Exer.nest13 = function() {
-  return /* answer for Nest 13 */ ;
+  return 0 ;
 };
 Exer.nest14 = function() {
-  return /* answer for Nest 14 */ ;
+  return 0 ;
 };
 Exer.nest15 = function() {
-  return /* answer for Nest 15 */ ;
+  return 0 ;
 };
 Exer.nest16 = function() {
-  return /* answer for Nest 16 */ ;
+  return 2 ;
 };
 Exer.nest17 = function() {
-  return /* answer for Nest 17 */ ;
+  return 5 ;
 };
 Exer.nest18 = function() {
-  return /* answer for Nest 18 */ ;
+  return 0 ;
 };
 
 /*******************************************************************************
